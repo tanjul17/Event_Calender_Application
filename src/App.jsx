@@ -37,7 +37,7 @@ function App() {
           <div className="flex flex-1">
             <Sidebar />
             <Month month={currentMonth} />
-            <Week week={currentWeek} />
+            {/* <Week week={currentWeek} /> */}
           </div>
         </div>
       </div>
